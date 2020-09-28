@@ -1,8 +1,5 @@
-package com.business.rule;
-
-import main.com.business.rule.RuleFactory;
-import main.com.business.rule.rules.BusinessRules;
-
+import com.business.rule.RuleFactory;
+import com.business.rule.rules.BusinessRules;
 import org.junit.Assert;
 import org.junit.Test;
 

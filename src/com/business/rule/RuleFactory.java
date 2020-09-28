@@ -1,7 +1,7 @@
-package main.com.business.rule;
+package com.business.rule;
 
-import main.com.business.rule.rules.*;
 
+import com.business.rule.rules.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,6 +34,7 @@ public class RuleFactory {
             default:
                 break;
         }
+
         return rulesList;
     }
 }

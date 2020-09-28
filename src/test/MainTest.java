@@ -1,14 +1,11 @@
-package com.business.rule;
-
-import main.com.business.rule.Main;
-import main.com.business.rule.RuleFactory;
+import com.business.rule.Main;
+import com.business.rule.RuleFactory;
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mock;
 
 import java.util.List;
 
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.mock;
 
 public class MainTest {
 
@@ -23,10 +20,5 @@ public class MainTest {
 
         Assert.assertEquals(new Main().getRules(listOfRules),
                 "Packing slip for shippingCommission payment generatedDuplicate packing slip for royalty departmentCommission payment generatedMembership ActivatedEmail sentMembership upgradedEmail sentPacking slip for shippingLearning video");
-//        verify(ruleFactory).getRules(listOfRules.get(0));
-//        verify(ruleFactory).getRules(listOfRules.get(1));
-//        verify(ruleFactory).getRules(listOfRules.get(2));
-//        verify(ruleFactory).getRules(listOfRules.get(3));
-//        verify(ruleFactory).getRules(listOfRules.get(4));
     }
 }

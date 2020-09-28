@@ -1,4 +1,4 @@
-package main.com.business.rule.rules;
+package com.business.rule.rules;
 
 public class DuplicatePackingSlip implements BusinessRules {
 
